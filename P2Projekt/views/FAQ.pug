@@ -1,0 +1,62 @@
+extends layout 
+
+block content 
+  body
+    script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js")
+    script(src='https://use.fontawesome.com/fe459689b4.js')
+    script(src='https://use.fontawesome.com/fe459689b4.js')
+    
+
+
+    div(class="header-wrapper fixed-top")
+        header(class="fixed-top d-flex align-items-center")
+
+            div(class="container d-flex justify-content-between")
+
+                div(class='title')
+                    h3 Health Record Rephrasing
+
+                nav(class='navbar')
+                    ul
+                        li
+                            a(class='nav-link scrollto' href='home') Home
+                        li
+                            a(class='nav-link scrollto active' href='#top') FAQ
+    
+
+    main
+      div.faq_section_wrapper(id="top")
+        section.FAQ_section
+            h2(class="FAQ_title") FAQs 
+            div(class="faq")
+                div(class="question")
+                    h3 What can i use the information from a rephrased Health Record for? 
+
+                    svg(widht="15" height="10" viewBox="0 0 42 25")
+                        path(d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round")
+
+                div(class="answer")
+                    p Many health records are written solely for the purpose of the medical staff, and can be hard to understand for the patient. By translating the Health Records, the patient can <u>get a better understanding of their own medical history</u>, and can use this information to make better decisions and better voice their concerns to their doctor regarding their own health.
+            div(class="faq")
+                div(class="question")
+                    h3 Does my medical data get stored anywhere?
+
+                    svg(widht="15" height="10" viewBox="0 0 42 25")
+                        path(d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round")
+
+                div(class="answer")
+                    p Your data gets all identifiable information removed before it gets send to the OpenAI API for translation. Any prompt sent through the API gets stored for a maximum of <u>30-days</u>, where it can be checked by authorised personel for misuse.
+            
+            div(class="faq")
+                div(class="question")
+                    h3 Is the AI translated Health Record accurate?
+                    
+                    svg(widht="15" height="10" viewBox="0 0 42 25")
+                        path(d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round")
+
+                div(class="answer")
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, non? Dignissimos adipisci commodi impedit sunt iusto distinctio aliquam porro vel eaque magnam.
+  footer
+    p © P2 Projekt 2023. All Rights Reserved

@@ -1,0 +1,25 @@
+{
+  "name": "p2projekt",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.0.1",
+    "http-errors": "~1.6.3",
+    "mongodb": "4.0",
+    "mongoose": "^7.0.4",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.9",
+    "nodemon": "^2.0.22",
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.2"
+  }
+}
