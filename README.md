@@ -1,4 +1,4 @@
-# 2nd Semester Project
+# Second Semester Project
 A web application that connects to the OpenAI GPT3.5 LLM with the purpose of explaining Electronic Medical Records through the use of simple language and terminology. 
 For this project, we used PUG, CSS, JS, Node.js, Express, and MongoDB (Mongoose as ODM). 
 
